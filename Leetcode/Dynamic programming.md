@@ -17,7 +17,7 @@ You can only move either down or right at any point in time.
 
 **Explanation:**
 The input is an 2D vector , so we also use a 2D vector to establish our DP solution.
-For any elements not on the border, 
+For any elements not on the border, there are only two ways to reach it because we are only allowed to move either down or right. So the optimal solution in `Grid[i][j]` would be determined by 
 
 **Codes:**
 ```
@@ -67,6 +67,6 @@ public:
 };
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTg4OTE4LDcxMzcyMDEyMywtMjA3NT
-kwNTk5MF19
+eyJoaXN0b3J5IjpbLTEwODM4MDQyNTksNzEzNzIwMTIzLC0yMD
+c1OTA1OTkwXX0=
 -->
