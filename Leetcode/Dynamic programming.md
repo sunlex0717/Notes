@@ -11,9 +11,8 @@ When developing DP, we basically follow a sequence of four steps:
  The key of DP is to find the structure of optimal solution.
 
 *************************************************
-
+###
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzYzNTAzODIsLTIwNzU5MDU5OTBdfQ
-==
+eyJoaXN0b3J5IjpbNzEzNzIwMTIzLC0yMDc1OTA1OTkwXX0=
 -->
