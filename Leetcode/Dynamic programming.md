@@ -22,7 +22,9 @@ For any elements not on the border, there are only two ways to reach it because 
 So, we can characterize the structure like 
 
  - `solution[i][j] = min(solution[i-1][j],solution[i][j-1])+Grid[i][j]` normal case
- - `s[0][j] = s[0][j-1] + v[0][j] corner case`  boar 
+ - `s[0][j] = s[0][j-1] + v[0][j] corner case 1`  border 
+ - `s[i][0] = s[i-1][0] + v[i][0] corner case 2`  border
+ - `s[0][0] = v[0][0] corner case 3` initial point
 
 **Codes:**
 ```
@@ -72,6 +74,6 @@ public:
 };
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwNzgwODAsNzEzNzIwMTIzLC0yMDc1OT
-A1OTkwXX0=
+eyJoaXN0b3J5IjpbLTE3NTA0MjQxNzMsNzEzNzIwMTIzLC0yMD
+c1OTA1OTkwXX0=
 -->
