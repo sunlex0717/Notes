@@ -51,9 +51,7 @@ public:
                 find_solution(grid,s,i,j);
             }
         }
-
         return s[m-1][n-1];
-        
     }
 
     void find_solution(vector<vector<int>>& grid,vector<vector<int>>& s, int m,int n){
@@ -73,7 +71,8 @@ public:
     }
 };
 ```
+## Heading
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTA0MjQxNzMsNzEzNzIwMTIzLC0yMD
-c1OTA1OTkwXX0=
+eyJoaXN0b3J5IjpbMTQzNjE0Mzk2Nyw3MTM3MjAxMjMsLTIwNz
+U5MDU5OTBdfQ==
 -->
