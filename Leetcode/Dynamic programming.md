@@ -19,6 +19,10 @@ You can only move either down or right at any point in time.
 The input is an 2D vector , so we also use a 2D vector to establish our DP solution.
 For any elements not on the border, there are only two ways to reach it because we are only allowed to move either down or right. So the optimal solution for `Grid[i][j]` would be determined by `solution[i-1][j]` and `solution[i][j-1]`. `solution[i][j]` represents the optimal solution for reaching `Grid[i][j]` from `Grid[0][0]`
 
+So, we can characterize the structure like 
+
+ - `solution[i][j] = min(solution[i-1][j],solution[i][j-1])+Grid[i][j]` normal case
+ - `s[0][j] = s[0][j-1] + v[0][j] corner case`  boar 
 
 **Codes:**
 ```
@@ -68,6 +72,6 @@ public:
 };
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2NzgyMzY4LDcxMzcyMDEyMywtMjA3NT
-kwNTk5MF19
+eyJoaXN0b3J5IjpbODMwNzgwODAsNzEzNzIwMTIzLC0yMDc1OT
+A1OTkwXX0=
 -->
