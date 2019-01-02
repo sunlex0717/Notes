@@ -9,8 +9,9 @@ When developing DP, we basically follow a sequence of four steps:
  - Construct an optimal solution from computed information
  
  The key of DP is to find the structure of optimal solution.
- 
+
+## 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjU3NjkyLC0yMDc1OTA1OTkwXX0=
+eyJoaXN0b3J5IjpbOTc3NDAzNzI2LC0yMDc1OTA1OTkwXX0=
 -->
