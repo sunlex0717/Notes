@@ -16,7 +16,8 @@ Given a _m_ x _n_ grid filled with non-negative numbers, find a path from top le
 You can only move either down or right at any point in time.
 
 **Explanation:**
-
+The input is an 2D vector , so we also use a 2D vector to establish our DP solution.
+For any elements not on the border, 
 
 **Codes:**
 ```
@@ -66,6 +67,6 @@ public:
 };
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQzMzE5NjcsNzEzNzIwMTIzLC0yMD
-c1OTA1OTkwXX0=
+eyJoaXN0b3J5IjpbMTAzMTg4OTE4LDcxMzcyMDEyMywtMjA3NT
+kwNTk5MF19
 -->
