@@ -12,6 +12,9 @@ When developing DP, we basically follow a sequence of four steps:
 
 *************************************************
 ## 64 [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
+Given a _m_ x _n_ grid filled with non-negative numbers, find a path from top left to bottom right which _minimizes_ the sum of all numbers along its path.
+You can only move either down or right at any point in time.
+
 **Explanation:**
 
 
@@ -63,6 +66,6 @@ public:
 };
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyNjg3OTEzLDcxMzcyMDEyMywtMjA3NT
-kwNTk5MF19
+eyJoaXN0b3J5IjpbLTE3MzQzMzE5NjcsNzEzNzIwMTIzLC0yMD
+c1OTA1OTkwXX0=
 -->
