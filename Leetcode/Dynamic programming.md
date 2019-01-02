@@ -11,7 +11,7 @@ When developing DP, we basically follow a sequence of four steps:
  The key of DP is to find the structure of optimal solution.
 
 *************************************************
-## 64 Minimum Path Sum
+## 64 [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
 **Explanation:**
 
 ```
@@ -61,6 +61,6 @@ public:
 };
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg2NDAxNzAsNzEzNzIwMTIzLC0yMD
-c1OTA1OTkwXX0=
+eyJoaXN0b3J5IjpbMTA4MDM4ODI4OSw3MTM3MjAxMjMsLTIwNz
+U5MDU5OTBdfQ==
 -->
